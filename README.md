@@ -26,14 +26,14 @@ Contents:
 
 Links:
 
-- https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
-- https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account
-- https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud
-- https://github.com
-- https://git-scm.com/docs
-- https://docs.github.com/en/github-cli/github-cli/about-github-cli
-- https://docs.github.com/en/get-started/using-github/github-mobile
-- https://docs.github.com/en/desktop/overview/about-github-desktop
+- <https://docs.github.com/en/get-started/start-your-journey/about-github-and-git>
+- <https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account>
+- <https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-enterprise-cloud>
+- <https://github.com>
+- <https://git-scm.com/docs>
+- <https://docs.github.com/en/github-cli/github-cli/about-github-cli>
+- <https://docs.github.com/en/get-started/using-github/github-mobile>
+- <https://docs.github.com/en/desktop/overview/about-github-desktop>
 
 ## Workshop Step 2: Introduction to repositories and issues
 
@@ -47,7 +47,7 @@ Contents:
 
 Links:
 
-- https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories
+- <https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories>
 
 ## Workshop Step 3: Introduction to Codespaces
 
@@ -59,7 +59,7 @@ Contents:
 
 Links:
 
-- https://docs.github.com/en/codespaces/overview
+- <https://docs.github.com/en/codespaces/overview>
 
 ### Workshop Step 4: Introduction to GitHub Flow and working with pull requests
 
@@ -81,12 +81,12 @@ Contents:
 
 Links:
 
-- https://docs.github.com/en/get-started/using-github/github-flow
-- https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches
-- https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets
-- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-- https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization
-- https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/
+- <https://docs.github.com/en/get-started/using-github/github-flow>
+- <https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches>
+- <https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets>
+- <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners>
+- <https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization>
+- <https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/>
 
 ## Workshop Step 5: Introduction to merge queues
 
@@ -97,7 +97,7 @@ Contents:
 
 Links:
 
-- https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue
-- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue
+- <https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue>
+- <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request-with-a-merge-queue>
 
 --- EOF ---
