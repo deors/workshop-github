@@ -1,0 +1,47 @@
+name: "Documentation contribution"
+description: Create a new issue before contributing to the documentation
+title: "[DOC_CONTRIB] <title>"
+labels: [
+  "contribution",
+  "documentation",
+  "doc-contrib"
+]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        First, thanks for taking time to contribute to this project. We have tried to make a stable project, correct errors and add new features continuously. You can help us do more.
+
+        Before you invest time in writing documentation, please create an issue to discuss it and ensure that your time is well spent. This will help us to understand your ideas and provide early feedback.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Contribution description*"
+      description: Provide a brief explanation of the contribution that you are planning to make
+      placeholder: Describe in a few lines the contribution.
+    validations:
+      required: true
+  - type: textarea
+    id: what_and_how
+    attributes:
+      label: "What will be contributed and how*"
+      description: Provide a brief explanation of what will be contributed and how it will be done
+      placeholder: Describe in a few lines the contribution contents, such as, guidelines, images, examples, etc. Explain as well how the contribution will be provided so the team can plan beforehand (e.g., a pull-request, a personal fork, a markdown text).
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Fields marked with * are mandatory
+  - type: markdown
+    attributes:
+      value: |
+        Once the contribution is ready and you have created the pull request, we will prioritize its review. Depending on how busy we are at the moment, this review may take time to being, and time to progress. GitHub will notify you as new comments are added to the pull request conversation, so you can stay up-to-date with any progress along the review.
+
+        Please do not make assumptions about the speed at which this will happen, and please acknowledge that we may need time to work on it. Thanks for understanding.
+
+        When the review is in motion, please attend to any comment or request for change that we have asked for. Let's keep the discussion in a kind and civic manner, specially when you do not agree.
+
+        Remember that you can edit the contribution files directly from the browser, standing on the page of the pull request, look for "Files changed", and clicking on the button "Change this file using the online editor" and represented with the pencil icon.
+
+        Solve the problems or concerns of a pull request may not be the final step. Thereview process can be repeated in several iterations. Please attend thesuccessive comments and requests, until the contribution is either accepted, or discarded for various reasons.

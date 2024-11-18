@@ -1,0 +1,88 @@
+name: "Bug Report"
+description: Create a new issue to report a defect or bug
+title: "[BUG] <title>"
+labels: [
+  "bug",
+  "defect"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description*"
+      description: Please enter a short and clear description of the bug found
+      placeholder: Short and clear description of the bug found...
+    validations:
+      required: true
+  - type: input
+    id: repro-url
+    attributes:
+      label: "Reproduction repository URL"
+      description: When the bug was found using the code (as a library/dependencies), please enter the repository URL that reproduces the issue
+      placeholder: e.g., https://github.com/mapfre-tech/REPO-NAME
+    validations:
+      required: false
+  - type: textarea
+    id: repro
+    attributes:
+      label: "Reproduction steps*"
+      description: Please enter a clear and detailed description of your issue, including steps to reproduce when applicable.
+      value: |
+        1. Logged as user in role '...'
+        2. Go to '...'
+        3. Click on '....'
+        4. Scroll down to '....'
+        5. See error
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots that could be useful to understand the problem and how to reproduce it"
+      description: If applicable, add screenshots to help explain your problem and how to reproduce it.
+      value: |
+        ![DESCRIPTION-1](LINK-1.png)
+        ![DESCRIPTION-2](LINK-2.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: If available, please add any logs or traces that could help to understand the problem.
+      render: bash
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: "Browsers"
+      description: If the bug is related with the usage of any web application, what browsers are in use?
+      multiple: true
+      options:
+        - Microsoft Edge
+        - Chrome
+        - Firefox
+        - Safari
+        - Opera
+    validations:
+      required: false
+  - type: dropdown
+    id: env
+    attributes:
+      label: "Environment*"
+      description: What is the impacted environment?
+      multiple: true
+      options:
+        - Development
+        - Testing
+        - Pre-production
+        - Production
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Fields marked with * are mandatory

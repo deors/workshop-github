@@ -1,0 +1,52 @@
+name: "Feature Request"
+description: Create a new issue to request a new feature
+title: "[REQUEST] <title>"
+labels: [
+  "feature",
+  "help wanted"
+]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary*"
+      description: Provide a brief explanation of the feature
+      placeholder: Describe in a few lines the feature requested
+    validations:
+      required: true
+  - type: input
+    id: needed_by
+    attributes:
+      label: "Needed by"
+      description: Provide a tentative date when the feature is needed
+      placeholder: "month/day/year"
+    validations:
+      required: false
+  - type: textarea
+    id: ref_issues
+    attributes:
+      label: "Reference issues"
+      description: If applicable, provide the issue IDs that are related to this feature request
+      placeholder: "#issue-id"
+    validations:
+      required: false
+  - type: textarea
+    id: feature_use_case
+    attributes:
+      label: "Feature use case*"
+      description: Provide a detailed description of the use case fulfilled by the feature requested. Please use one feature request for each use case.
+      placeholder: A detailed description of the use case to be implemented.
+    validations:
+      required: true
+  - type: textarea
+    id: feature_acceptance_criteria
+    attributes:
+      label: "Feature acceptance criteria*"
+      description: Provide the complete set of acceptance criteria for the feature requested
+      placeholder: Acceptance criteria in Gherkin format (Given, When, Then)
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Fields marked with * are mandatory
