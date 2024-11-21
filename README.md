@@ -12,14 +12,16 @@ The purpose of this workshop is to provide participants with the basic knowledge
 
 This workshop is not intended as a step-by-step guide, but more like a do-it-yourself with the guidance of workshop facilitators and the extensive and fantastic GitHub documentation to help participants to find what they need to complete every step.
 
-The repository will also contain a simple yet exemplar .Net Core application with some basic CI workflows to help participants to review pull requests and to assess whether the code keeps working after changes. It will also contain some exemplar issue forms for typical contributions such as reporting a bug or contributing with code (e.g., for external collaborators).
+The repository will also point to a simple yet exemplar .Net Core application with some basic CI workflows to help participants to review pull requests and to assess whether the code keeps working after changes. The actual repository can be any, as the different roleplays are not coupled to it. Therefore, feel free to explore and choose any other repository that is to your liking, or even start from scratch if you'd prefer the extra challenge.
+
+The repository also contains some exemplar issue forms for typical contributions such as reporting a bug or contributing with code (e.g., for external collaborators). They are not mandatory to follow, and participants may decide to leverage other or none when agreeing to their collaborative workflow.
 
 ## Workshop Step 1: General description of GitHub
 
 Contents:
 
 - What is GitHub.
-- Brief description of differences between GitHub.com (personal and organizations) and GitHub Enterprise.
+- Brief description and differences between GitHub.com (personal and organizations) and GitHub Enterprise.
 - How to work with GitHub: GitHub.com web interface, Git CLI, GitHub CLI, GitHub Mobile app, GitHub Desktop.
 - ```Roleplay 1.1```: Navigate through GitHub.com and locate the workshop repository.
 - ```Roleplay 1.2 (Optional)```: Install GitHub Mobile app on your phone and/or GitHub Desktop on your workstation/laptop.
@@ -43,17 +45,26 @@ Contents:
 - ```Roleplay 2.1```: Create repositories from scratch and from a template.
 - ```Roleplay 2.2```: Create issues from scratch and from issue templates.
 - ```Roleplay 2.3```: Distribute participants in groups of 4-5 people. Each group will discuss about the collaborative workflow that will be used for the rest of the workflow.
-- ```Roleplay 2.4```: Invite collaborators to repositories. From now Each group of 4-5 people will work on the same repository (from now on it will be refered as the 'group repository').
+- ```Roleplay 2.4```: Invite collaborators to repositories. From now on each group of 4-5 people will work on the same repository (from now on it will be refered as the 'group repository').
 
 Links:
 
 - <https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories>
+
+The repository suggested for Roleplays:
+
+- <https://github.com/deors/eShopOnWeb> forked from <https://github.com/dotnet-architecture/eShopOnWeb> with slight configuration changes to work well within Codespaces/Dev Containers.
+
+The issue templates suggested for Roleplays are available in the workshop repository:
+
+- <https://github.com/deors/workshop-github/issues/new/choose>
 
 ## Workshop Step 3: Introduction to Codespaces
 
 Contents:
 
 - Introduction to Codespaces.
+- How Codespaces and Dev Containers are related.
 - ```Roleplay 3.1```: Create and/or open a Codespace for the group repository (it will be configured already).
 - ```Roleplay 3.2```: Review the Codespace configuration, access the terminal, and verify that the Codespace is ready for work with the post create command.
 
