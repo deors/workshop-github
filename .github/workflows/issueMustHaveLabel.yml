@@ -1,0 +1,18 @@
+name: Adds a comment to every issue without a label
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check-label:
+    runs-on: ubuntu-latest
+    if: github.event.issue.labels[0].name == ''
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Add a reminder to the issue as a comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue comment ${{ github.event.issue.number }} --body "Please remember to add a label to this issue"
