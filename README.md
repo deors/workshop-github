@@ -72,7 +72,7 @@ Links:
 
 - <https://docs.github.com/en/codespaces/overview>
 
-### Workshop Step 4: Introduction to GitHub Flow and working with pull requests
+## Workshop Step 4: Introduction to GitHub Flow and working with pull requests
 
 Contents:
 
