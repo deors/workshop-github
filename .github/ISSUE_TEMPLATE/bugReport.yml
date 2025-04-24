@@ -19,7 +19,7 @@ body:
     attributes:
       label: "Reproduction repository URL"
       description: When the bug was found using the code (as a library/dependencies), please enter the repository URL that reproduces the issue
-      placeholder: e.g., https://github.com/mapfre-tech/REPO-NAME
+      placeholder: e.g., https://github.com/MY-ORG-NAME/REPO-NAME
     validations:
       required: false
   - type: textarea
